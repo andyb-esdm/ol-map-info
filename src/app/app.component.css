@@ -1,0 +1,10 @@
+.info-container {
+    position: absolute;
+    bottom: 2rem;
+    width: 20rem;
+    height: 5rem;
+    left: 0;
+    right: 0;
+    background-color: white;
+    margin-inline: auto;
+}

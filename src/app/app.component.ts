@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MapService } from './map.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ol-map-info';
+  mapInfo$ = this.mapService.mapInfo$;
+  constructor(private mapService: MapService) { }
 }

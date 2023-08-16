@@ -50,6 +50,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ol/ol.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,5 +120,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4107e92e-7162-445c-af20-24b4cb03507b"
   }
 }
